@@ -132,6 +132,11 @@ footer {
     border-radius: 24px;
     background-color: #FFFFFF;
 
+    width: 190px;
+    height: 48px;
+    outline: none;
+    padding: 10px;
+    line-height: 23px;
 }
 
 .container section.competition-gallery {
@@ -142,6 +147,8 @@ footer {
     height: 681px;
     display: flex;
     padding: 0px;
+    padding-top: 100px;
+    padding-left: 222px;
 }
 
 .container section.submit-picture .left-column {
@@ -149,8 +156,7 @@ footer {
     flex-direction: column;
     width: 550px;
     text-align: left;
-    margin-top: 100px;
-    margin-left: 222px;
+    margin-right: 146px;
 }
 
 .container section.submit-picture .left-column .heading {
@@ -160,6 +166,87 @@ footer {
     letter-spacing: 0;
     line-height: 50.4px;
     margin-bottom: 38px;
+}
+
+.container section.submit-picture .right-column {
+    width: 480px;
+}
+
+.container section.submit-picture .right-column form label {
+    font-family: Vinkel-Regular;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: left;
+}
+
+.container section.submit-picture .right-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container section.submit-picture .right-column form > input {
+    border: 3px solid #D0D0D0;
+    border-radius: 24px;
+    border-radius: 24px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.container section.submit-picture .right-column form > input:focus {
+    border: 3px solid #E5007C;
+    outline: none;
+}
+
+.container section.submit-picture .right-column form div.agree-checkbox-container {
+    font-family: Vinkel-Regular;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 49px;
+    line-height: 23px;
+}
+
+.container section.submit-picture .right-column form div.agree-checkbox-container span.highlight {
+    font-family: Vinkel-Regular;
+    font-size: 16px;
+    color: #E5007C;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
+
+.container section.submit-picture .right-column form button.image-select-button {
+    background: #D8D8D8;
+    border-radius: 24px;
+    border-radius: 24px;
+    margin-top: 20px;
+    width: 100%;
+
+    font-family: Vinkel-Bold;
+    font-size: 16px;
+    color: #555555;
+    letter-spacing: 2px;
+
+    line-height: 23px;
+}
+
+.container section.submit-picture .right-column form button.submit-button {
+    font-family: Vinkel-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+
+    background: #E5007C;
+    border-radius: 24px;
+    border-radius: 24px;
+
+
+    line-height: 23px;
+
+    width: 155px;
 }
 
 .container section.submit-picture .left-column .content {

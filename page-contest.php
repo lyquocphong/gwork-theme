@@ -52,11 +52,9 @@ Template Name: Contest Page
                     <span class="content">
                         Lyhyt kuvaus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu.
                     </span>
-                    <span>
-                        <button>
-                            OSALLISTU CTA
-                        </button>
-                    </span>
+                    <button>
+                        OSALLISTU CTA
+                    </button>
                 </div>
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/img1.jpg" />
             </section>
@@ -81,6 +79,27 @@ Template Name: Contest Page
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien.
                         </p>
                     </div>
+                </div>
+                <div class="right-column">
+                    <form autocomplete="off">
+                        <label for="title">Kuvan otsikko</label>
+                        <input id="title" type="text"/>
+                        <label for="name">Nimi *</label>
+                        <input id="name" type="text" required/>
+                        <label for="email">Sähköposti *</label>
+                        <input id="email" type="email" required/>
+
+                        <button type="button" class="image-select-button">VALITSE KUVA</button>
+
+                        <div class="agree-checkbox-container">
+                            <input id="agree-checkbox" type="checkbox" required/>
+                            <span>
+                                Hyväksyn kilpailun <span class="highlight">säännöt ja ehdot</span>
+                            </span>
+                        </div>
+
+                        <button type="submit" class="submit-button">OSALLISTU</button>
+                    </form>
                 </div>
             </section>
 
